@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Dancing+Script:wght@500&family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./assets/kisspng-logo-blue-green-red-5b58659b295072.8709304115325198351692.png" alt=""> 
+            <h1><strong>CONTACT US</strong></h1>
+        </div>      
+            <form action="server.php">
+                <div class="form-group">
+                    <label for="firstName"> Full Name</label>
+                    <input type="text" id="firstName" name="firstName" required placeholder="First Name...">
+                </div>
+      
+                <div class="form-group">
+                    <input type="text" id="lastName" name="lastName" required placeholder="Last Name...">
+                </div>
+      
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Email...">
+                </div> 
+      
+                <div class="form-group">
+                    <label for="priority">Priority</label><br>
+                    <select id="priority" name="priority" required>
+                        <option value="select...">Select...</option>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                        <option value="critical">Critical</option>
+                    </select> 
+                </div>
+
+                <div class="form-group">
+                <label for="massage">Massage</label>
+                <textarea name="massage" id="massage" cols="10" rows="5" placeholder="Message Here..."></textarea>
+                </div>            
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+    </div>
+</body>
+</html>
