@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f75fe;
+}
+
+.navbar{
+    display: flex;
+    background-color: #ffd394;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    display:flex;
+    padding: 0px;
+}
+
+
+.navbar-links {    
+    display:flex;
+    margin-right: 100px;
+    gap:2.5em;
+}
+
+.navbar-links a {
+    display: flex;
+    text-decoration:none;
+    color: #F3502A;  
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar-links a:hover {
+    color: rgb(194, 61, 31);
+    cursor: pointer;
+  }
+
+.navbar-links button {
+    color: #F3502A;
+    border: 2px solid #F3502A;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar-links button:hover{
+    color: #ffd394;
+    background-color: #F3502A;
+}
+
+h1 {
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipMW_RkzmoM2XFhfJkrcvFrgazpAJ1bfbdulgdqA=w1080-h608-p-no-v0);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+    color: #fff;
+    padding: 200px;
+}
+
+.middle-section {
+    display: flex;
+    background-color: #ffd394;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #F3502A;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    justify-content: center;    
+}
+
+.main-content {
+    background-color: #1f75fe;
+    padding: 10px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: rgb(234, 191, 185);
+    letter-spacing: normal;
+    line-height: 40.8px;
+    margin-bottom: 17px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 17px
+}
+
+.main-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(234, 191, 185);
+    line-height: 25px;
+    margin-bottom: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.services {
+    margin-bottom: 400px;
+}
+
+.column {
+    float: left;
+    max-width: 640px;
+    width: 25%;
+    padding: 20px;
+    height: 300px;
+    background: #1f75fe;
+}
+
+.column h4 {
+    font-family: 'roboto', sans-serif;
+    color: rgb(234, 191, 185);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.column p {
+    color: rgb(234, 191, 185);
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 16px;    
+}
+
+span {
+    display: flex;
+    justify-content: ;
+    margin-top: 10px;
+    color: rgb(234, 191, 185);
+    font-family: "roboto";
+    font-size: 16px;
+    font-weight: bold;    
+}
+
+.column button {
+    color: #fff;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 10px;
+    font-weight: 400;
+    background-color: rgb(234, 191, 185);
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.column button:hover{
+    color: #fff;
+    background-color: hsl(7, 51%, 84%);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;    
+    padding: 10px;
+    gap: 3em;
+    cursor: pointer;
+}
+
+.more-services {
+    color: #fff;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(234, 191, 185);
+    padding: 10px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: #fff;
+    background-color: hsl(7, 51%, 84%);
+}
+
+.note {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffd394;
+    font-family: roboto;
+    padding: 20px;
+    height: 280px;
+}
+
+.box1 h2 {
+    color: #F3502A;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2.5px;
+}
+
+.half1 {
+    color: #F3502A;
+}
+.half1 h2 {
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    text-align: center;
+}
+
+
+.half2 {
+    color:#F3502A;
+    line-height: 30px;
+}
+
+.footer {
+    display: flex;
+    padding-top: 15px;
+    margin-left: 100px;
+    height: 50px;
+    font-family: roboto;
+    color:rgb(234, 191, 185);
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+    
+}
